@@ -35,7 +35,11 @@
 	vscode
 	wget
 	wofi
+	grim
 	xfce.thunar
+	wl-clipboard
+	libnotify
+	sway-contrib.grimshot
 
     ];
   };

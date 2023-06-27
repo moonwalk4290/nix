@@ -18,7 +18,7 @@
       margin-bottom = 9;
       margin-right = 5;
       modules-left = [ "custom/search" "wlr/workspaces"];
-      modules-right = ["custom/spotify" "pulseaudio" "clock"];
+      modules-right = ["custom/screenshot" "custom/spotify" "pulseaudio" "clock"];
     
       "wlr/workspaces" = {
           on-click = "activate";
@@ -46,6 +46,11 @@
           on-click = "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause";
         };
 
+        "custom/screenshot" = {
+          format = "󰹑";
+          on-click = "grimshot copy screen && notify-send  '󰹑   Screenshot' 'Screenshot copied to clipboard.'";
+        };
+
         "custom/search" = {
           format = "";
           tooltip = false;
@@ -62,9 +67,11 @@
         }; 
         pulseaudio = {
           scroll-step = 3;
-          tooltip = false;
-          format = "{icon}";
-          format-icons = {default = ["" "" "󰕾"];};
+          tooltip = true;
+          format = ''
+          {icon}
+          {volume}'';
+          format-icons = {default = ["" ""];};
           on-click = "${pkgs.killall}/bin/killall pavucontrol || ${pkgs.pavucontrol}/bin/pavucontrol";
         };
 

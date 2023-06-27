@@ -27,9 +27,11 @@
     background-color: #313244;
     border-radius: 8px;
     padding: 7px 2px 7px 2px;
+    font-size: 20px;
   }
 
   #workspaces,
+  #custom-screenshot,
   #clock {
     margin: 5px 7px 5px 7px;
     background-color: #313244;
@@ -44,6 +46,14 @@
     background-color: #313244;
     border-radius: 8px;
     padding: 7px 12px 7px 3px;
+  }
+
+  #custom-screenshot {
+    padding: 7px 1px 7px 2px;
+  }
+
+  #custom-search {
+    font-size: 25px;
   }
 
   #custom-spotify {
