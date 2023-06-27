@@ -3,6 +3,7 @@
   lib,
   pkgs,
   self,
+  nix-colors,
   ...
 }: 
 
