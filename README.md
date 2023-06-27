@@ -1,6 +1,7 @@
 # nix
 
 ## To Do:
+- Wifi Auto Connection
 - Add Rofi Configuration
 - Add Hyprland & Hyprpaper Configuration
 - Add Swaylock Configuration

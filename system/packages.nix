@@ -27,8 +27,6 @@
 	python3
 	qbittorrent
 	spotify
-	steam
-	swww
 	thunderbird
 	viewnior	
 	vim	
