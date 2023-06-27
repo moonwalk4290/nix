@@ -9,7 +9,6 @@
     ./kitty
     ./mako
     ./waybar
-    #./hyprland
 
   ];
 }

@@ -14,7 +14,7 @@
 	filezilla
 	git
 	hyprland
-	#hyprpaper
+	hyprpaper
 	github-desktop
 	kate
 	lutris
@@ -28,6 +28,7 @@
 	qbittorrent
 	spotify
 	steam
+	swww
 	thunderbird
 	viewnior	
 	vim	

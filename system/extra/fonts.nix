@@ -2,7 +2,8 @@
   config,
   pkgs,
   ...
-}: {
+}:
+ {
   fonts = {
     enableDefaultFonts = false;
 
