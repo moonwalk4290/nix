@@ -9,6 +9,6 @@
     ./kitty
     ./mako
     ./waybar
-
+    ./wofi
   ];
 }

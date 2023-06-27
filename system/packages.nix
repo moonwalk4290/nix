@@ -7,7 +7,7 @@
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
 
-	appimage-run	
+	appimage-run
 	blueman
 	brave
 	easyeffects
