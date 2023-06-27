@@ -44,11 +44,13 @@
         "custom/spotify" = {
           format = "";
           on-click = "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause";
+          tooltip = false;
         };
 
         "custom/screenshot" = {
           format = "󰹑";
           on-click = "grimshot copy screen && notify-send  '󰹑   Screenshot' 'Screenshot copied to clipboard.'";
+          tooltip = false;
         };
 
         "custom/search" = {
@@ -61,13 +63,11 @@
           format = ''
             {:%H
             %M}'';
-          tooltip-format = ''
-            <big>{:%Y %B}</big>
-            <tt><small>{calendar}</small></tt>'';
+          tooltip = false;
         }; 
         pulseaudio = {
           scroll-step = 3;
-          tooltip = true;
+          tooltip = false;
           format = ''
           {icon}
           {volume}'';
