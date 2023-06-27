@@ -1,2 +1,2 @@
 # nix
-<img src="images/image.png" width="100px" /> <br>
+<img src="images/image.png" width="1000px" /> <br>
