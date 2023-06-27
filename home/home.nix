@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, nix-colors, ... }:
 
 {
 
@@ -9,9 +9,10 @@
 
    imports = [
     ./unnamed
-
+    nix-colors.homeManagerModules.default
   ];
 
+colorScheme = nix-colors.colorSchemes.nord;
 programs.home-manager.enable = true;
 
 }
