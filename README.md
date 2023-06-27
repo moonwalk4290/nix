@@ -4,6 +4,7 @@
 - Add Rofi Configuration
 - Add Hyprland & Hyprpaper Configuration
 - Add Swaylock Configuration
+- Add More Configuration to Waybar (?)
 - Optimize for gaming (?)
 
 
