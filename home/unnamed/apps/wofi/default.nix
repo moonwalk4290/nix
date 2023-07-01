@@ -3,17 +3,16 @@
   lib,
   pkgs,
   self,
-  nix-colors,
   ...
 }: 
 
 {
-    programs.wofi = {
+    programs.rofi = {
         enable = true;
-
-     font = "Iosevka Nerd Font 14";
-    extraConfig = {
-      modi = "drun,filebrowser,calc,emoji";
+        font = "Iosevka Nerd Font 14";
+      
+      extraConfig = {
+      modi = "drun,filebrowser";
       drun-display-format = " {name} ";
       sidebar-mode = true;
       matching = "prefix";
@@ -24,8 +23,6 @@
       display-drun = " Run";
       display-run = " Run";
       display-filebrowser = " Files";
-      display-calc = " Calculator";
-      display-emoji = "💀 Emoji";
     };
     };
 

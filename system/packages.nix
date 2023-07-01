@@ -13,10 +13,12 @@
 	easyeffects
 	filezilla
 	git
+	github-desktop
+	grim
 	hyprland
 	hyprpaper
-	github-desktop
 	kate
+	libnotify
 	lutris
 	meson
 	meson-tools
@@ -27,17 +29,14 @@
 	python3
 	qbittorrent
 	spotify
+	sway-contrib.grimshot
 	thunderbird
 	viewnior	
 	vim	
 	vscode
 	wget
-	wofi
-	grim
-	xfce.thunar
 	wl-clipboard
-	libnotify
-	sway-contrib.grimshot
+	xfce.thunar
 
     ];
   };

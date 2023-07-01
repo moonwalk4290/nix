@@ -71,6 +71,5 @@ imports =
    '';
  };
 
-
   system.stateVersion = "23.05"; 
 }

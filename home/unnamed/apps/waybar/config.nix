@@ -56,7 +56,7 @@
         "custom/search" = {
           format = "";
           tooltip = false;
-          on-click = "${config.programs.wofi.package}/bin/wofi --show drun";
+          on-click = "rofi -show drun";
         };
 
         clock = {
